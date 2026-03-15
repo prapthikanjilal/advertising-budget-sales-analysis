@@ -85,14 +85,6 @@ Statsmodels
 
 ---
 
-## Author
-
-Prapthi Kanjilal  
-BBA – Strategy and Business Analytics  
-Christ University, Bengaluru
-
-
-
 ## Visual Analysis
 
 ### TV vs Sales Relationship
@@ -106,3 +98,10 @@ Christ University, Bengaluru
 
 ### Residual Distribution
 ![Residuals](residual_distribution.png)
+
+## Author
+
+Prapthi Kanjilal  
+BBA – Strategy and Business Analytics  
+Christ University, Bengaluru
+
