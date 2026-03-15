@@ -1,64 +1,93 @@
-# Impact of Advertising Budget on Sales – Python Data Analysis
+# Impact of Advertising Budget on Sales
+### Marketing Analytics Project using Python
 
 ## Project Overview
-This project analyzes the relationship between advertising expenditure and sales performance using Python. The objective is to understand how marketing investments influence revenue generation and to identify patterns that can support data-driven marketing decisions.
+This project analyzes the relationship between advertising expenditure and sales using Python and linear regression techniques. The objective is to understand how marketing investments influence revenue generation and identify the advertising channels that drive sales performance.
 
-The analysis focuses on exploring how different levels of advertising spending impact sales outcomes through statistical analysis and data visualization.
+The analysis applies statistical modeling and data visualization to generate data-driven marketing insights.
 
 ---
 
-## Objectives
-• Evaluate the relationship between advertising budget allocation and sales performance  
-• Identify trends and correlations between marketing spend and revenue  
-• Generate visual insights to support marketing strategy and investment decisions  
+## Business Problem
+Companies invest in multiple advertising channels including TV, Radio, and Newspaper advertising. However, determining which channel contributes most effectively to sales growth is a key business challenge.
+
+This project evaluates the impact of advertising budgets on sales to support more effective marketing investment decisions.
+
+---
+
+## Dataset
+The analysis uses the Advertising dataset containing **200 observations** across four variables:
+
+• TV advertising budget  
+• Radio advertising budget  
+• Newspaper advertising budget  
+• Sales (target variable)
+
+The dataset is clean with no missing values and is suitable for regression analysis.
+
+---
+
+## Methodology
+
+1. Data loading and preprocessing using Pandas  
+2. Exploratory Data Analysis (EDA) to identify trends and correlations  
+3. Visualization of advertising spend vs sales relationships  
+4. Building a Linear Regression model using scikit-learn  
+5. Model evaluation using statistical performance metrics  
+
+---
+
+## Key Findings
+
+• TV advertising shows the strongest relationship with sales  
+• Pearson correlation between TV budget and sales ≈ **0.78**  
+• Linear regression slope ≈ **3.9**, indicating strong positive impact  
+• Model explains approximately **67% of sales variation (R² ≈ 0.67)**
+
+---
+
+## Model Performance
+
+Evaluation metrics confirm the predictive strength of the model:
+
+• MAE ≈ 2.4  
+• RMSE ≈ 3.2  
+• R² ≈ 0.67
+
+For a single-variable regression model, this represents strong explanatory power.
+
+---
+
+## Business Insights
+
+• TV advertising has the highest influence on sales growth  
+• Increasing TV advertising budget significantly increases predicted sales  
+• Data-driven marketing allocation can improve return on advertising investment
 
 ---
 
 ## Tools and Technologies
+
 Python  
 Pandas  
 NumPy  
 Matplotlib  
 Seaborn  
+Scikit-learn  
+Statsmodels
 
 ---
 
-## Methodology
-1. Data collection and loading of the advertising dataset  
-2. Data cleaning and preprocessing using Pandas  
-3. Exploratory Data Analysis (EDA) to understand spending patterns  
-4. Visualization of relationships between advertising budget and sales  
-5. Interpretation of insights for marketing decision-making  
+## Project Files
 
----
-
-## Key Analysis Performed
-• Correlation analysis between advertising budget and sales  
-• Visualization of sales trends based on marketing expenditure  
-• Identification of patterns in revenue growth related to advertising investment  
-
----
-
-## Key Insights
-• Increased advertising expenditure showed a positive relationship with sales performance  
-• Certain advertising channels contributed more significantly to sales growth  
-• Data-driven allocation of marketing budgets can improve return on investment (ROI)
-
----
-
-## Business Implications
-The findings from this analysis can help businesses optimize advertising budgets, allocate marketing resources more effectively, and improve overall sales performance through strategic marketing investments.
-
----
-
-## Files Included
-• Python analysis script / notebook  
-• Dataset used for analysis  
-• Project presentation (PPT)
+• Python analysis notebook  
+• Advertising dataset  
+• Project presentation
 
 ---
 
 ## Author
+
 Prapthi Kanjilal  
 BBA – Strategy and Business Analytics  
 Christ University, Bengaluru
