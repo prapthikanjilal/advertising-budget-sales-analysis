@@ -1,6 +1,5 @@
 # Impact of Advertising Budget on Sales
-### Marketing Analytics Project using Python
-
+### Marketing Analytics & Linear Regression using Python
 ## Project Overview
 This project analyzes the relationship between advertising expenditure and sales using Python and linear regression techniques. The objective is to understand how marketing investments influence revenue generation and identify the advertising channels that drive sales performance.
 
