@@ -90,3 +90,19 @@ Statsmodels
 Prapthi Kanjilal  
 BBA – Strategy and Business Analytics  
 Christ University, Bengaluru
+
+
+
+## Visual Analysis
+
+### TV vs Sales Relationship
+![TV vs Sales](tv_vs_sales_scatter.png)
+
+### Linear Regression Model
+![Regression](linear_regression_model.png)
+
+### Model Prediction Accuracy
+![Actual vs Predicted](actual_vs_predicted.png)
+
+### Residual Distribution
+![Residuals](residual_distribution.png)
